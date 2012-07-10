@@ -2039,16 +2039,6 @@ var requirejs, require, define;
 var jam = {
     "packages": [
         {
-            "name": "backbone",
-            "location": "jam/backbone",
-            "main": "backbone.js"
-        },
-        {
-            "name": "cs",
-            "location": "jam/cs",
-            "main": "cs.js"
-        },
-        {
             "name": "hbt",
             "location": "jam/hbt",
             "main": "hbt.js"
@@ -2059,11 +2049,6 @@ var jam = {
             "main": "jquery.js"
         },
         {
-            "name": "underscore",
-            "location": "jam/underscore",
-            "main": "underscore.js"
-        },
-        {
             "name": "handlebars",
             "location": "jam/handlebars",
             "main": "handlebars.js"
@@ -2072,11 +2057,6 @@ var jam = {
             "name": "text",
             "location": "jam/text",
             "main": "text.js"
-        },
-        {
-            "name": "coffee-script",
-            "location": "jam/coffee-script",
-            "main": "./extras/coffee-script.js"
         }
     ],
     "version": "0.1.11",

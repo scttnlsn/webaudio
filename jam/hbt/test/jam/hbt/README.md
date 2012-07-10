@@ -18,20 +18,4 @@ Then we can compile it like so:
 
     });
 
-Config
-------
-
-    require.config({
-        hbt: {
-            extension: 'handlebars'
-        }
-    });
-
-Tests
------
-
-    cd test
-    npm install
-    node server.js
-
-Visit `localhost:3000` to view test output.
+That's all for now.
