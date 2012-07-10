@@ -17,8 +17,13 @@ html
                 position: relative;
                 width: 1px;
             }
-            
-        !{ js() }
+
+        - if (env() == 'production')
+            //script(src="https://s3.amazonaws.com/webaudio.herokuapp.com/application.js")
+            script(src="application.js")
+        - else
+            script(src="jam/require.js")
+            script(src="app/main.js")
 
     body
         #timer

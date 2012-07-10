@@ -21,6 +21,6 @@
     },
 
     "devDependencies": {
-        "requirejs": "2.0.2"
+        "jam": ">= 0.2.2"
     }
 }

@@ -1,0 +1,8 @@
+{
+    "jam_version": "0.1.11",
+    "dependencies": {
+        "backbone": null,
+        "cs": null,
+        "hbt": null
+    }
+}

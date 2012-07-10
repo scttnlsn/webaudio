@@ -1,5 +1,5 @@
 build:
 	mkdir -p build
-	./node_modules/.bin/coffee bin/build.coffee
+	jam compile -i app/main -o build/application.js
 
 .PHONY: build
