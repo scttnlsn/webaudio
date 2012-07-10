@@ -26,6 +26,11 @@ var jam = {
             "main": "underscore.js"
         },
         {
+            "name": "coffee-script",
+            "location": "jam/coffee-script",
+            "main": "./extras/coffee-script.js"
+        },
+        {
             "name": "handlebars",
             "location": "jam/handlebars",
             "main": "handlebars.js"
@@ -34,11 +39,6 @@ var jam = {
             "name": "text",
             "location": "jam/text",
             "main": "text.js"
-        },
-        {
-            "name": "coffee-script",
-            "location": "jam/coffee-script",
-            "main": "./extras/coffee-script.js"
         }
     ],
     "version": "0.1.11",
